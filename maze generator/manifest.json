@@ -7,10 +7,10 @@
 	},
 	"header": {
 		"name": "Maze Generator",
-		"description": "cmd: maze <size>",
+		"description": "cmd: maze <size> <wall_height>",
 		"min_engine_version": [1,19,50],
 		"uuid": "8f458ca2-012e-40a1-b02b-b9a65f11e3dd",
-		"version": [1,0,0]
+		"version": [2,1,6]
 	},
 	"modules": [{
 		"type": "data",
@@ -26,14 +26,6 @@
 	}],
 	"dependencies": [{
 		"module_name": "@minecraft/server",
-		"version": "1.1.0-beta"
-	},
-	{
-		"module_name": "@minecraft/server-gametest",
-		"version": "1.0.0-beta"
-	},
-	{
-		"module_name": "@minecraft/server-ui",
-		"version": "1.0.0-beta"
+		"version": "1.4.0-beta"
 	}]
 }
